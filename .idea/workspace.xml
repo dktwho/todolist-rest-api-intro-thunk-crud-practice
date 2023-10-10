@@ -92,7 +92,7 @@
       <workItem from="1666897080066" duration="27000" />
       <workItem from="1681818788802" duration="1496000" />
       <workItem from="1696931713076" duration="4483000" />
-      <workItem from="1696942392301" duration="7503000" />
+      <workItem from="1696942392301" duration="7592000" />
     </task>
     <task id="LOCAL-00001" summary="init project add dependencies, install thunk">
       <created>1696932014436</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696949861527</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modified updateTaskThunkCreator, make universal for change task title or task status">
+      <created>1696949912476</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949912476</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

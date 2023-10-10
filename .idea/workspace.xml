@@ -92,7 +92,7 @@
       <workItem from="1666897080066" duration="27000" />
       <workItem from="1681818788802" duration="1496000" />
       <workItem from="1696931713076" duration="4483000" />
-      <workItem from="1696942392301" duration="5479000" />
+      <workItem from="1696942392301" duration="7503000" />
     </task>
     <task id="LOCAL-00001" summary="init project add dependencies, install thunk">
       <created>1696932014436</created>
@@ -192,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1696946556465</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="create updateTaskThunkCreator">
+      <created>1696947945644</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696947945644</updated>
+    </task>
+    <task id="LOCAL-00016" summary="modified updateTaskThunkCreator, make universal for change task title or task status">
+      <created>1696949842013</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949842013</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modified updateTaskThunkCreator, make universal for change task title or task status">
+      <created>1696949861527</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696949861527</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +245,8 @@
     <MESSAGE value="create removeTaskThunkCreator" />
     <MESSAGE value="remove unused imports" />
     <MESSAGE value="create addTaskThunkCreator" />
-    <option name="LAST_COMMIT_MESSAGE" value="create addTaskThunkCreator" />
+    <MESSAGE value="create updateTaskThunkCreator" />
+    <MESSAGE value="modified updateTaskThunkCreator, make universal for change task title or task status" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified updateTaskThunkCreator, make universal for change task title or task status" />
   </component>
 </project>

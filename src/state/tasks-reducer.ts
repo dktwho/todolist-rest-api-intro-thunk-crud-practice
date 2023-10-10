@@ -130,7 +130,7 @@ export const tasksReducer = (state: TasksStateType = initialState, action: Actio
     }
 }
 
-export const removeTaskAC = (taskId: string, todolistId: string): RemoveTaskActionType => {
+export const removeTaskAC = (todolistId: string, taskId: string): RemoveTaskActionType => {
     return {type: 'REMOVE-TASK', taskId: taskId, todolistId: todolistId}
 }
 export const addTaskAC = (title: string, todolistId: string): AddTaskActionType => {
@@ -154,6 +154,13 @@ export const getTasksThunkCreator = (todoId: string) => (dispatch: Dispatch) => 
     todolistsAPI.getTasks(todoId)
         .then((res) => {
             dispatch(setTasksAC(todoId, res.data.items))
+        })
+}
+
+export const removeTaskThunkCreator = ( taskId: string, todoId: string,) => (dispatch: Dispatch) => {
+    todolistsAPI.deleteTask( todoId, taskId)
+        .then((res) => {
+            dispatch(removeTaskAC(todoId, taskId))
         })
 }
 

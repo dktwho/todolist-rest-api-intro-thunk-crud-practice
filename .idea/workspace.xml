@@ -92,7 +92,7 @@
       <workItem from="1666897080066" duration="27000" />
       <workItem from="1681818788802" duration="1496000" />
       <workItem from="1696931713076" duration="4483000" />
-      <workItem from="1696942392301" duration="2592000" />
+      <workItem from="1696942392301" duration="3102000" />
     </task>
     <task id="LOCAL-00001" summary="init project add dependencies, install thunk">
       <created>1696932014436</created>
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696944733138</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modified (add todoId) to getTasksThunkCreator , typed with Return type, and add case SET-TASKS">
+      <created>1696945019793</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696945019793</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +199,7 @@
     <MESSAGE value="perform getTodosThunk, to getTodosThunkCreator" />
     <MESSAGE value="create custom hook useAppDispatch" />
     <MESSAGE value="create getTasksThunkCreator , typed with Return type" />
-    <option name="LAST_COMMIT_MESSAGE" value="create getTasksThunkCreator , typed with Return type" />
+    <MESSAGE value="modified (add todoId) to getTasksThunkCreator , typed with Return type, and add case SET-TASKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified (add todoId) to getTasksThunkCreator , typed with Return type, and add case SET-TASKS" />
   </component>
 </project>

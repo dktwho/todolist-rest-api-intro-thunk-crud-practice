@@ -121,6 +121,10 @@ export const tasksReducer = (state: TasksStateType = initialState, action: Actio
             })
             return copyState
         }
+
+        case "SET-TASKS": {
+            return {...state, [action.todoId]: action.tasks}
+        }
         default:
             return state;
     }
@@ -141,15 +145,15 @@ export const changeTaskTitleAC = (taskId: string, title: string, todolistId: str
 
 
 type SetTasksActionType = ReturnType<typeof setTasksAC>
-export const setTasksAC = (tasks: TaskType[]) => {
-    return {type: 'SET-TASKS', tasks} as const
+export const setTasksAC = (todoId: string, tasks: TaskType[]) => {
+    return {type: 'SET-TASKS', todoId, tasks} as const
 }
 
 
 export const getTasksThunkCreator = (todoId: string) => (dispatch: Dispatch) => {
     todolistsAPI.getTasks(todoId)
         .then((res) => {
-            dispatch(setTasksAC(res.data.items))
+            dispatch(setTasksAC(todoId, res.data.items))
         })
 }
 

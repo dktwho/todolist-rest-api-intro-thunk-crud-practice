@@ -92,7 +92,7 @@
       <workItem from="1666897080066" duration="27000" />
       <workItem from="1681818788802" duration="1496000" />
       <workItem from="1696931713076" duration="4483000" />
-      <workItem from="1696942392301" duration="4130000" />
+      <workItem from="1696942392301" duration="5479000" />
     </task>
     <task id="LOCAL-00001" summary="init project add dependencies, install thunk">
       <created>1696932014436</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696945646219</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create addTaskThunkCreator">
+      <created>1696946556465</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696946556465</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +223,7 @@
     <MESSAGE value="modified (add todoId) to getTasksThunkCreator , typed with Return type, and add case SET-TASKS" />
     <MESSAGE value="create removeTaskThunkCreator" />
     <MESSAGE value="remove unused imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unused imports" />
+    <MESSAGE value="create addTaskThunkCreator" />
+    <option name="LAST_COMMIT_MESSAGE" value="create addTaskThunkCreator" />
   </component>
 </project>

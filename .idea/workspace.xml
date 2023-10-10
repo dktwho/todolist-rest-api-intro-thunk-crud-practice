@@ -89,7 +89,7 @@
       <workItem from="1666896542323" duration="507000" />
       <workItem from="1666897080066" duration="27000" />
       <workItem from="1681818788802" duration="1496000" />
-      <workItem from="1696931713076" duration="2360000" />
+      <workItem from="1696931713076" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary="init project add dependencies, install thunk">
       <created>1696932014436</created>
@@ -98,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696932014436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add useEffect with getTodolists, and create setTodolistAC with auto type">
+      <created>1696936746752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696936746752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add useEffect with getTodolists, and create setTodolistAC with auto type">
+      <created>1696936862558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696936862558</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project add dependencies, install thunk" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project add dependencies, install thunk" />
+    <MESSAGE value="add useEffect with  getTodolists, dispatch setTodolistAC, and create setTodolistAC with auto type" />
+    <MESSAGE value="add useEffect with getTodolists, and create setTodolistAC with auto type" />
+    <option name="LAST_COMMIT_MESSAGE" value="add useEffect with getTodolists, and create setTodolistAC with auto type" />
   </component>
 </project>

@@ -44,7 +44,6 @@ function App() {
         dispatch(addTaskThunkCreator(title, todolistId))
     }, []);
 
-
     const updateTask = useCallback(function (id: string, todolistId: string, args: ArgsType) {
         dispatch(updateTaskThunkCreator(todolistId, id, args))
     }, []);

@@ -93,7 +93,7 @@
       <workItem from="1681818788802" duration="1496000" />
       <workItem from="1696931713076" duration="4483000" />
       <workItem from="1696942392301" duration="8063000" />
-      <workItem from="1697044175344" duration="2103000" />
+      <workItem from="1697044175344" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="init project add dependencies, install thunk">
       <created>1696932014436</created>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697044378836</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add changeTodolistTitleThunkCreator">
+      <created>1697046302420</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697046302420</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +286,7 @@
     <MESSAGE value="clear spaces" />
     <MESSAGE value="clear spaces 2" />
     <MESSAGE value="add deleteTodolistThunkCreator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deleteTodolistThunkCreator" />
+    <MESSAGE value="add changeTodolistTitleThunkCreator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add changeTodolistTitleThunkCreator" />
   </component>
 </project>

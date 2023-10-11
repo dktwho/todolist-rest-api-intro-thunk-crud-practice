@@ -14,7 +14,7 @@ import {Menu} from '@mui/icons-material';
 import {
     addTodolistAC,
     changeTodolistFilterAC,
-    changeTodolistTitleAC,
+    changeTodolistTitleAC, deleteTodolistThunkCreator,
     FilterValuesType,
     getTodosThunkCreator,
     removeTodolistAC,
@@ -59,8 +59,7 @@ function App() {
     }, []);
 
     const removeTodolist = useCallback(function (id: string) {
-        const action = removeTodolistAC(id);
-        dispatch(action);
+        dispatch(deleteTodolistThunkCreator(id))
     }, []);
 
     const changeTodolistTitle = useCallback(function (id: string, title: string) {

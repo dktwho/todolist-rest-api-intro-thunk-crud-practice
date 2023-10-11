@@ -102,3 +102,9 @@ export const getTodosThunkCreator = () => (dispatch: Dispatch) => {
 }
 
 
+export const deleteTodolistThunkCreator = (todoId: string) => (dispatch: Dispatch) => {
+    todolistsAPI.deleteTodolist(todoId)
+        .then((res) => {
+            dispatch(removeTodolistAC(todoId))
+        })
+}
